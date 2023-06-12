@@ -2,7 +2,7 @@ import { ReactQueryDevtools } from "react-query/devtools";
 import { Box, ChakraProvider, Divider, Flex } from "@chakra-ui/react";
 import { useQuery } from "react-query";
 import FormTodo from "./components/FormTodo";
-import PanelTodos from "./components/panelTodos";
+import PanelTodos from "./components/PanelTodos";
 
 function App() {
   const { isLoading, isError, data } = useQuery("todos", () =>
